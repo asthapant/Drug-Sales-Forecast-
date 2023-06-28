@@ -1,4 +1,4 @@
-﻿# Drug-Sales-Forecasting
+﻿# Case Study : Drug-Sales-Forecasting
 
 ## Analytics in Pharmaceutical Industry
 
