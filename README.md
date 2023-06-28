@@ -159,7 +159,7 @@ The hyperparameters obtained with Hyperopt yield an RMSE value of 51.70 with R-s
 
 The Exploratory Data Analysis notebook can be found here:
 
-[Exploratory Data Analysis]([actual URL to navigate](https://github.com/asthapant/Drug-Sales-Forecast-/blob/main/EDA_Notebook.ipynb)
+[Exploratory Data Analysis](https://github.com/asthapant/Drug-Sales-Forecast-/blob/main/EDA_Notebook.ipynb)
 
 The final model trained and tuned along with generated predicted values can be found here:
 
