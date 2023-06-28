@@ -158,7 +158,7 @@ The hyperparameters obtained with Hyperopt yield an RMSE value of 51.70 with R-s
 ## Run Steps
 
 The Exploratory Data Analysis notebook can be found here:
-
+[Exploratory Data Analysis](actual URL to navigate)
 
 The final model trained and tuned along with generated predicted values can be found here:
 
