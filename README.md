@@ -163,3 +163,5 @@ The Exploratory Data Analysis notebook can be found here:
 
 The final model trained and tuned along with generated predicted values can be found here:
 
+[Model Training and Forecast](https://github.com/asthapant/Drug-Sales-Forecast-/blob/main/Model_Training.ipynb)
+
