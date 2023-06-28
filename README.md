@@ -126,7 +126,7 @@ XGBoost is tuned first using GridSearchCV and then using Hyperopt further to get
 
 The hyperparameters obtained with GridSearchCV yield an RMSE value of 70.90 with R-square value 0.94. Here, I used the K-Fold cross validation to split the data without shuffle. This might not be very accurate as we are dealing with time series information.
 
-Further, I performed Hyperparameter tuning using Hyperopt Library which provided a more refined optimization framework. While tuning the size of the tree, min_data_in_leaf proved to be a better hyperparameter in comparison to max_depth. The RMSE values are also largely affected by min_child_weight hyperparameter. To prevent overfitting, I have also incorporated the lambda_l1 and lambda_l2 (alpha) regularization factors. The learning rate is kept small (0.03) for training.
+Further, I performed Hyperparameter tuning using Hyperopt Library which provided a more refined optimization framework. The RMSE values are also largely affected by min_child_weight hyperparameter. To prevent overfitting, I have also incorporated the lambda_l1 and lambda_l2 (alpha) regularization factors. The learning rate is kept small (0.03) for training.
 The objective function is minimized using fmin and Tree-structured Parzen Estimator (tpe) optimization algorithm is used to select the promising hyperparameters. 
  The search space of the tuning is below:
  
