@@ -165,3 +165,7 @@ The final model trained and tuned along with generated predicted values can be f
 
 [Model Training and Forecast](https://github.com/asthapant/Drug-Sales-Forecast-/blob/main/Model_Training.ipynb)
 
+## Conclusions
+The task was to predict the sales of each account for two drugs for a period of next months. We started by exploring the time series data, did some feature engineering to prepare the data for modelling and computed the test data feature values. Finally, we used the  XGBoost model to predict the sales. To improve the model performance, the hyperparameter tuning was done on two levels. This was followed by several instances of trying and testing the parameters to find the most efficient one amongst them. The model takes approximately an hour to tune for both GridSearchCV and Hyperopt. The RMSE value decreased by 20 units post the tuning steps. However, the initial RMSE came out to be more promising. 
+
+
