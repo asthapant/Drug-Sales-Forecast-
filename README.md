@@ -172,4 +172,5 @@ The task was to predict the sales of each account for two drugs for a period of 
 There are several ways in which the model can yield better results: 
 - We can use other modeling techniques for time series data like LightGBM, Lasso/RidgeRegression, SARIMAX and take the Ensemble of all as the final forecast.
 - Although XGBoost takes care of seasonality and trend but making the data stationary before training the model and then adding the trend and seasonality components later on might have resulted in better results. However this is more pertinent to ARIMA model (the lagged features in our model mitigate the non-stationarity of data).
-- Next task is to analyze the Cross Validation folds - if a different method of split can improve model performance. The iteration steps in Hyperopt hyperparameter tuning can be increased for reduced RMSE. However this may increase the computation time dratically.  
+- Next task is to analyze the Cross Validation folds - if a different method of split can improve model performance.
+- The iteration steps in Hyperopt hyperparameter tuning can be increased for reduced RMSE. However this may increase the computation time drastically.  
